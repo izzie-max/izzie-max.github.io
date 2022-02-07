@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+*{  font-family: Arial, Helvetica, sans-serif; color: rgb(253, 253, 253);
+    font-size: 18px;
+    height: 100
+}
+body {
+    background-color: black;
+    width: 1000px;
+    padding: 40px;
+    margin: auto;
+    
+}
+h1{
+    font-family: 'Princess Sofia', cursive;
+    font-size: 50px;
+    color: snow; box-shadow: black;
+    text-shadow: 4px 3px 2px rgb(163, 157, 157);
+   text-align: center;
+   text-decoration: none;
+}
+h2{
+    font-family: 'Princess Sofia', cursive;
+    font-size: 40px;
+    color: snow; box-shadow: black;
+    text-shadow: 4px 3px 2px rgb(141, 141, 141);
+}
+p{ text-justify: auto;
+    font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+color: whitesmoke}
+img {
+    margin-left: 20%;
+}
+.burton{
+    margin-left: 30%;
+}
