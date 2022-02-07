@@ -31,6 +31,12 @@ div{
 div:hover{
     background-color: rgb(92, 89, 89);
 }
+#sally{
+    background-image:linear-gradient( to right, rgba(130, 124, 93, 0.945), rgb(168, 161, 121));
+}
+#jackk{
+    background-image:linear-gradient( to right, rgb(67,64,48), rgb(125,120,90));
+}
 nav > a{
     text-align: center;
     text-decoration: solid;
