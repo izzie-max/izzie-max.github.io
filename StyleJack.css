@@ -7,8 +7,10 @@
 body{
     background-image:linear-gradient(to left, #000000, #413e3e, #050505 );
     width: 1200px;
-    margin: auto;
- }
+    margin: auto;}
+.fotop{ 
+    box-shadow: 10px 5px 40px rgb(12, 12, 12);
+}
 #noiva{
     background-image:linear-gradient(to right, rgb(15, 15, 15), rgb(54,78,102), rgb(15, 15, 15));
 }
@@ -18,24 +20,62 @@ body{
 header{
     background-color: rgb(26, 25, 25);
     padding: 10px;
-    margin: 10px;
+    margin: 20px;
 }
-div{
+.personagem1{
     display: inline-table;
-    background-color: rgb(46, 46, 46);
+    border: 0px solid rgb(46, 46, 46);
+    text-align: center;
+    height: 12px;
+    width:280px;
+    
+}
+.personagem2{
+    display: inline-table;
     border: 0px solid rgb(46, 46, 46);
     text-align: center;
     height: 12px;
     width:280px;
 }
-div:hover{
-    background-color: rgb(92, 89, 89);
+.personagem3{
+    display: inline-table;
+    border: 0px solid rgb(46, 46, 46);
+    text-align: center;
+    height: 12px;
+    width:280px;
 }
-#sally{
-    background-image:linear-gradient( to right, rgba(130, 124, 93, 0.945), rgb(168, 161, 121));
+.personagem4{
+    display: inline-table;
+    border: 0px solid rgb(46, 46, 46);
+    text-align: center;
+    height: 12px;
+    width:280px;
 }
-#jackk{
-    background-image:linear-gradient( to right, rgb(67,64,48), rgb(125,120,90));
+.subitem{
+    background-color: rgb(46, 46, 46);
+    display: inline-table;
+    border: 0px solid rgb(46, 46, 46);
+    text-align: center;
+    height: 12px;
+    width:280px;
+}
+.nomes{
+    font-family: "Princess Sofia", cursive;
+    font-size: 25px;
+    display: inline-table;
+    border: 0px solid rgb(46, 46, 46);
+    text-align: center;
+    height: 12px;
+    width: 295px;
+}
+.nomes1{
+    font-family: "Princess Sofia", cursive;
+    font-size: 25px;
+    display: inline-table;
+    border: 0px solid rgb(46, 46, 46);
+    text-align: center;
+    height: 12px;
+    width: 310px;
 }
 nav > a{
     text-align: center;
@@ -43,6 +83,9 @@ nav > a{
     color: rgb(248, 248, 248);
     font-weight: bold;
     margin-right: 130px;
+}
+.subitem:hover{
+    background-color: rgb(92, 89, 89);
 }
 a{
     font-family: 'Princess Sofia', cursive;
@@ -87,4 +130,9 @@ img {
 }
 .burton{
     margin-left: 30%;
+    box-shadow: 10px 5px 40px rgb(12, 12, 12);
+}
+.burton1{
+    margin-left: 15%;
+    box-shadow: 10px 5px 40px rgb(12, 12, 12);
 }
